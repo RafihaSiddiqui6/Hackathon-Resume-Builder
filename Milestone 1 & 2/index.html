@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rafiha Siddiqui Resume Builder</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Left column: 3 columns -->
+      <div class="left-column">
+        <div class="profile-picture-container">
+          <img src="./my pic.jpg" alt="Profile Picture" />
+        </div>
+        <div class="left">
+          <h2 onclick="toggleSection('contact')">Contact</h2>
+          <div id="contact" class="toggle-content">
+            <hr />
+            <p><strong>Email:</strong> rafihasiddiqui@gmail.com</p>
+            <p><strong>Address:</strong> Orangi Town, Karachi</p>
+          </div>
+
+          <h2 onclick="toggleSection('expertise')">Expertise</h2>
+          <div id="expertise" class="toggle-content">
+            <hr />
+            <div class="skills-container">
+              <div class="skill">
+                <span class="skill-name">HTML5</span>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 750%"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <span class="skill-name">CSS3</span>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 60%"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <span class="skill-name">JavaScript</span>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 40%"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <span class="skill-name">TypeScript</span>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 50%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h2 onclick="toggleSection('links')">Links</h2>
+          <div id="links" class="toggle-content">
+            <hr />
+            <p>
+              <a
+                href="https://www.facebook.com/share/1PYiH5ggsp/"
+                class="link"
+                target="_blank"
+                >Facebook</a
+              >
+            </p>
+            <p>
+              <a
+                href="https://www.linkedin.com/in/rafiha-siddiqui-8829152bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                class="link"
+                target="_blank"
+                >Linkedin</a
+              >
+            </p>
+          </div>
+
+          <h2 onclick="toggleSection('language')">Language</h2>
+          <div id="language" class="toggle-content">
+            <hr />
+            <p>English</p>
+            <p>Urdu</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Image Divider -->
+      <div class="img-divider">
+        <img src="./images.jpeg" alt="Divider Image" />
+      </div>
+
+      <!-- Right column: 8 columns -->
+      <div class="right-column">
+        <h1>Rafiha Siddiqui</h1>
+        <h3>Web Developer</h3>
+
+        <h2 onclick="toggleSection('about')">About Me</h2>
+        <div id="about" class="toggle-content">
+          <hr />
+          <p>
+            Hello! I am currently a student at GIAC, specializing in Artificial Intelligence (AI) and Metaverse 3.0. Through this program, I am gaining insights into cutting-edge technologies that are transforming how we experience and interact within digital environments. My studies focus on learning how AI can create smarter, more interactive virtual spaces and immersive experiences, preparing me to innovate in the tech world
+          </p>
+        </div>
+
+        <h2 onclick="toggleSection('education')">Education</h2>
+        <div id="education" class="toggle-content">
+          <hr />
+          <p class="head">
+            <strong>ADC (Associate Degree in Commerce) 
+            </strong> | Continue
+          </p>
+          <p>Bachelor in Commerce (Affiliated from Karachi University)</p>
+          <p class="head">
+            <strong>Sir Syed Govt. College</strong> | 2023 - 2024
+          </p>
+          <p>Intermediate  from BIEK (Commerce) </p>
+          <p class="head">
+            <strong>Jinnah Public Secondary School</strong> | 2022 to 2022 
+          </p>
+          <p>Matriculation HSC (Science)</p>
+        </div>
+
+        <h2 onclick="toggleSection('certificates')">Certificates</h2>
+        <div id="certificates" class="toggle-content">
+          <hr />
+          <ul>
+            <li>CIT Certificate by Al-Ansar</li>
+            <li>Game Certificate By School</li>
+          </ul>
+        </div>
+
+        <h2 onclick="toggleSection('projects')">Projects</h2>
+        <div id="projects" class="toggle-content">
+          <hr />
+          <div class="projects">
+            <div>
+              <ul>
+                <li>Calculator</li>
+                <li>Portfolio</li>
+                <li>Periodic Table</li>
+                <li>Tic Tac Toe</li>
+           
+          <p class="developed">
+            Developed on HTML, CSS & JavaScript
+           </p>
+     </ul>
+
+            </div>
+
+                  </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
